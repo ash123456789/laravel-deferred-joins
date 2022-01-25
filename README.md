@@ -23,7 +23,7 @@ composer require ash123456789/laravel-deferred-joins
 
 ## Usage
 
-You can use deferred pagination on any builder instance, life so:
+You can use deferred pagination on any model query, like so:
 
 ```php
 User::query()->deferredPaginate(24);
