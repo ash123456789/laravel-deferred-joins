@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "ash123456789/laravel-deferred-joins",
+    "description": "A simple Laravel package to allow usage of deferred joins for improved performance.",
     "keywords": [
-        ":vendor_name",
+        "ash123456789",
         "laravel",
-        ":package_slug"
+        "laravel-deferred-joins"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/ash123456789/laravel-deferred-joins",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Ash",
+            "email": "ashleyd223@gmail.com",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Ash123456789\\LaravelDeferredJoins\\": "src",
+            "Ash123456789\\LaravelDeferredJoins\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Ash123456789\\LaravelDeferredJoins\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Ash123456789\\LaravelDeferredJoins\\LaravelDeferredJoinsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelDeferredJoins": "Ash123456789\\LaravelDeferredJoins\\Facades\\LaravelDeferredJoins"
             }
         }
     },

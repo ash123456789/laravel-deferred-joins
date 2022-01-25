@@ -1,5 +1,5 @@
 <?php
 
-use VendorName\Skeleton\Tests\TestCase;
+use Ash123456789\LaravelDeferredJoins\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);
