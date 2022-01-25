@@ -7,59 +7,12 @@
 
 A simple Laravel package to allow usage of deferred joins for improved performance.
 
-## Support us
-
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/laravel-deferred-joins.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/laravel-deferred-joins)
-
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
-
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
-
 ## Installation
 
 You can install the package via composer:
 
 ```bash
 composer require ash123456789/laravel-deferred-joins
-```
-
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --tag="laravel-deferred-joins-migrations"
-php artisan migrate
-```
-
-You can publish the config file with:
-
-```bash
-php artisan vendor:publish --tag="laravel-deferred-joins-config"
-```
-
-This is the contents of the published config file:
-
-```php
-return [
-];
-```
-
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag="laravel-deferred-joins-views"
-```
-
-## Usage
-
-```php
-$laravelDeferredJoins = new Ash123456789\LaravelDeferredJoins();
-echo $laravelDeferredJoins->echoPhrase('Hello, Ash123456789!');
-```
-
-## Testing
-
-```bash
-composer test
 ```
 
 ## Changelog
@@ -77,7 +30,6 @@ Please review [our security policy](../../security/policy) on how to report secu
 ## Credits
 
 - [Ash](https://github.com/ash123456789)
-- [All Contributors](../../contributors)
 
 ## License
 
