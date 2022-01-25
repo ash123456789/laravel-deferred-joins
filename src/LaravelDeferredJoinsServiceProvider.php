@@ -40,7 +40,7 @@ class LaravelDeferredJoinsServiceProvider extends PackageServiceProvider
                 'column' => "$table.$key",
                 // Get the key values from the records on the *current* page, without mutating them.
                 'values' => $paginator->getCollection()->map->getRawOriginal($key)->toArray(),
-                'boolean' => 'and'
+                'boolean' => 'and',
             ];
 
             // simplePaginate increments by one to see if there's another page. We'll

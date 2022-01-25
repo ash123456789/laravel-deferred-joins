@@ -2,9 +2,9 @@
 
 namespace Ash123456789\LaravelDeferredJoins\Tests;
 
+use Ash123456789\LaravelDeferredJoins\LaravelDeferredJoinsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Ash123456789\LaravelDeferredJoins\LaravelDeferredJoinsServiceProvider;
 
 class TestCase extends Orchestra
 {
